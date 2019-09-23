@@ -1,0 +1,107 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); 
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+
+/* @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css'); */
+
+
+
+@font-face {
+  font-family: 'Nanum Square';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/NanumSquareR.eot);
+  src: local('Nanum Square Regular'),
+       local('NanumSquareR'),
+       url(font/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+       url(font/NanumSquareR.woff2) format('woff2'),
+       url(font/NanumSquareR.woff) format('woff'),
+       url(font/NanumSquareR.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Square';
+  font-style: bold;
+  font-weight: 700;
+  src: url(font/NanumSquareB.eot);
+  src: local('Nanum Square Bold'),
+       local('NanumSquareB'),
+       url(font/NanumSquareB.eot?#iefix) format('embedded-opentype'),
+       url(font/NanumSquareB.woff2) format('woff2'),
+       url(font/NanumSquareB.woff) format('woff'),
+       url(font/NanumSquareB.ttf) format('truetype');
+}
+
+
+/* Reset */
+html,body{height:100%;/*line-height:18px;*/}
+* {box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select {margin:0;padding:0; 
+    box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;
+}
+body {-webkit-text-size-adjust:none} /* 뷰표트 변환시 폰트크기 자동확대 방지 */
+body, th, td, div, p, li, dt, dd, input, textarea, select, button {color:#606060;
+    /* font-family:'NanumSquare', 'Noto Sans KR', verdana, arial, sans-serif;  
+	font-family:'NanumSquareRound',sans-serif;	*/
+	font-family: 'Nanum Square', sans-serif; font-weight:400;
+	font-size:14px; line-height:18px;
+}
+fieldset, img, area {border:0 none;vertical-align:top;}
+ul, ol {list-style:none;} 
+h1,h2,h3,h4,h5,h6 {font-size:14px;font-weight:normal;text-align:left;}
+hr {display:none;}
+a:link, a:visited, a:active {color:#666;text-decoration:none;}
+a:hover {color:#666;text-decoration:none;}
+
+caption, th {text-align:left;font-weight:normal;}
+legend, caption {overflow:hidden;left:0;top:-5000px;width:0;height:0;font-size:0;line-height:0;display:none;}
+
+button,label{cursor:pointer;}
+button {display:inline-block;border:0;vertical-align:top;}
+button img{left:-3px;*left:auto}
+button * {position:relative;}
+button span {z-index:-1;}
+textarea{*margin:-1px 0;resize:none;}
+em,address{font-style:normal}
+
+select { background:#fff; }
+
+table {width:100%;}
+table, table th, table td {border-collapse:collapse;border-spacing:0;}
+table td a {text-decoration:underline;}
+
+input[type="password"] { color:#333; font-family:"dotum"; }
+input[type="text"],input[type="password"],input[type="button"],input[type="submit"] { -moz-appearance: none; -webkit-appearance: none; appearance: none;  }
+
+input::-webkit-input-placeholder , input::-moz-input-placeholder , input::-ms-input-placeholder
+{ position:aboslute; top:50%; left:5px; transform:translateY(-50%); }
+
+/*
+a:active {outline:none;}
+a {outline:none;}
+a {selector-dummy: expression(this.hideFocus=true);}
+*/
+/* Common */
+.cfx:after{display:block;clear:both;content:"";}
+.cfx{zoom:1;overflow:hidden;}
+
+.overh {overflow:hidden;clear:both;}
+.clear{display:block; float:none; clear:both; height:0; width:100%; font-size:0 !important; line-height:0 !important; overflow:hidden; margin:0 !important; padding:0 !important;}
+.blind {position:absolute;left:0;top:0;width:0;height:0;overflow:hidden;font-size:0;line-height:0;visibility:hidden;}
+
+.vt {vertical-align:top;}
+.vm {vertical-align:middle;}
+.fl {float:left;}
+.fr {float:right !important;}
+.tl {text-align:left !important;}
+.tr {text-align:right;}
+.tc {text-align:center !important;}
+.spacing {letter-spacing:normal !important;}
+
+.bgn {background:0 !important;}
+
+.hide {display:none;}
+.show {display:block;}
+
+
